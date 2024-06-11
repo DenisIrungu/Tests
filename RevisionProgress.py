@@ -23,22 +23,18 @@ revised_topics = ["System Architecture",
 no_of_topics_rev=0
 total_topics=len(revised_topics)
 
-
-
 for revised_topic in revised_topics:
     response = input(f"Have you revised {revised_topic}? ")
-    if response.lower() =='y':
+    if response =='Yes':
         no_of_topics_rev+= 1
         print ("Good")
         continue
-    elif response.lower() =='n':
+    elif response=='No':
         print("You need to revise this topic")
         continue
     else:
         print("Invalid input. Enter yes or no to continue")
         break
-
-        
 def prog_score():
     prog_scores=((no_of_topics_rev)/(total_topics))*100
     y=int(prog_scores)
