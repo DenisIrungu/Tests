@@ -25,11 +25,11 @@ total_topics=len(revised_topics)
 
 for revised_topic in revised_topics:
     response = input(f"Have you revised {revised_topic}? ")
-    if response =='Yes':
+    if response.lower() =='yes':
         no_of_topics_rev+= 1
         print ("Good")
         continue
-    elif response=='No':
+    elif response.lower() =='no':
         print("You need to revise this topic")
         continue
     else:
