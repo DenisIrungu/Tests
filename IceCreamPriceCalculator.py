@@ -1,3 +1,19 @@
+# Your local ice cream shop would like to set up a touchscreen tablet on the counter 
+# for their customers to customise their ice cream order 
+# and automatically calculate the cost of their ice cream.
+# The new system will need a computer program to let the customer pick up their options for their ice cream. 
+# The customer should be able to specify:
+
+#     Whether they would like their ice cream to be served in a cup or on a cone
+#     How many scoops they would like to order (between 1 and 4)
+#     Whether they would like to add a flake
+#     Whether they would like to add some chocolate sprinkle
+#     Whether they would like to add a strawberry coulis
+# Based on the user inputs and the price list provided above, 
+# the system should automatically calculate and display the total price of the chosen ice cream.
+
+
+
 print("+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+")
 print("+                               +")
 print("+      The Ice Cream Shop       +")
